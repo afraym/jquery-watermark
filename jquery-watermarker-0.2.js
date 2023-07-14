@@ -109,7 +109,7 @@ $.Watermarker = function(obj,opt)
 
     //Créer une zone div sous l'image pour le style (contour, etc.)
     var $styleContainer = $('<div />')
-                        .addClass('watermark')
+                        .addClass('watermark img-responsive')
                         .css({
                             position: 'absolute',
                             'z-index':     1
